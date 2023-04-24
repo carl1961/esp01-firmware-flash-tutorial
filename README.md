@@ -91,7 +91,7 @@
         - ESP-01 RX -> Arduino Mega TX1（Hardware Serial 1）
         - ESP-01 TX -> Arduino Mega RX1（Hardware Serial 1）
 
-            僅 Arduino Mega 有 HardwareSerial，若使用其他 Arduino 板則更改 esp_checkFirmware 專案中 /src 底下的 main.cpp，使用 SoftwareSerial 並將 baud rate 設爲 9600（HardwareSerial 無法使用太快的 baud rate），同時要透過 AT 指令將 ESP-01 的 baud rate 設爲 9600。此外 Arduino Mega 只有以下 Pin 腳能當作 SoftwareSerial 的 RX：10, 11, 12, 13, 14, 15, 50, 51, 52, 53, A8 (62), A9 (63), A10 (64), A11 (65), A12 (66), A13 (67), A14 (68), A15 (69)
+            僅 Arduino Mega 有 HardwareSerial，若使用其他 Arduino 板則更改 esp_checkFirmware 專案中 /src 底下的 main.cpp，使用 SoftwareSerial 並將 baud rate 設爲 9600（SoftwareSerial 無法使用太快的 baud rate），同時要透過 AT 指令將 ESP-01 的 baud rate 設爲 9600。此外 Arduino Mega 只有以下 Pin 腳能當作 SoftwareSerial 的 RX：10, 11, 12, 13, 14, 15, 50, 51, 52, 53, A8 (62), A9 (63), A10 (64), A11 (65), A12 (66), A13 (67), A14 (68), A15 (69)
 
     4. Upload 程式碼至 Arduino 後開啓 Serial Monitor，期望結果如下圖
 
