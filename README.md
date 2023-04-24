@@ -1,5 +1,5 @@
 ## 工具
----
+
 ### 硬體
 - ESP-01 or ESP-01S
 - Arduino Mega 2560 or other Arduino boards
@@ -13,7 +13,7 @@
 - flash_download_tool_3.9.4
 
 ## ESP-01 韌體燒錄流程
----
+
 ### 接線
 - ESP-01 Vcc -> Power Supply 3.3V
 - ESP-01 CH_PD -> Power Supply 3.3V
@@ -97,7 +97,6 @@
         ![image](./preview/p7.png)
 
 ## Reference
----
 
 1. [ESP8266 series module topic](https://docs.ai-thinker.com/en/esp8266)
 2. [ESP8266 SDK released](https://docs.ai-thinker.com/en/esp8266/sdk)
