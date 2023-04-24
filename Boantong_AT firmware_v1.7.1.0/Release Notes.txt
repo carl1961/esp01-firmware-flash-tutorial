@@ -1,0 +1,3 @@
+v1.7.1.0 AT Firmware, contains 8Mbit and 32Mbit versions
+
+Please write according to the flash size of your product
