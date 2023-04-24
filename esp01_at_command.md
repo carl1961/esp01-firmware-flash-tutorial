@@ -59,7 +59,7 @@
     ```
     STA 與 AP 模式有各自的 IP, 在 STA 模式下未連線前 IP 為預設之 0.0.0.0, 連線後基地台會配發一個 192.168.X.X 的 IP; 改為 AP 或 BOTH 模式後, ESP8266 會自行配發 192.168.4.1 的 AP IP, 故 BOTH 模式下會有兩個 IP.
 
-- AT+CWJAP="TP-LINK_E4D58E","12345678" **(連線指定之基地台: ssid, pwd)**
+- AT+CWJAP="ssid","password" **(連線指定之基地台: ssid, password)**
 
     ```
     WIFI CONNECTED                                                                  
