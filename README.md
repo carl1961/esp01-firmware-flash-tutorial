@@ -3,7 +3,7 @@
 ### 硬體
 - ESP-01 or ESP-01S
 - Arduino Mega 2560 or other Arduino boards
-- Power Supply (提供穩定電流防止任何錯誤)
+- Power Supply (提供穩定電流排除某些錯誤原因)
 
 ### Serial Port Monitor
 - ESPlorer
